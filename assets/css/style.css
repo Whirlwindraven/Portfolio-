@@ -3,13 +3,19 @@
 }
 
 body { 
-    background-color: #d9dcd6;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
 }
 
 header { 
+    margin: 0px;
     padding: 20px;
+    height: auto;
+    box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: black;
+    text-align: left;
     color: white
 }
 
@@ -18,28 +24,43 @@ header h1 {
     font-size: 48px;
 }
 
-.nav-links {
+
+nav {
+    width: 100%;
+    margin: -10px;
+    height: 50px; 
+    background: rgba(0, 0, 0, o.8);
+    border-top: 1px solid rgba(255,255,255,.2);
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    background-color: black;
+    position: sticky; top: 0px;
+}
+
+nav ul {
     display: flex;
-    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px 100px;
     justify-content: flex-end;
 }
 
-.nav-button {
-    padding: 10px;
-    border-radius: 40px;
-    transition-duration: 0.4s;
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
+   text-transform: uppercase;
+   font-weight: bold;
+   line-height: 50px;
+}
+
+nav ul li a:hover {
     background-color: red;
-    margin: 5px;
 }
 
-.nav-button a {
-    color: white;
-}
-
-.nav-button:hover {
-    background-color: yellowgreen;
-}
-
-.nav-button a:hover {
-    color: black;
+nav ul li a.active {
+    background-color: red;
 }
