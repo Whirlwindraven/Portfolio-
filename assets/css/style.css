@@ -138,6 +138,36 @@ color: #4b4b4b;
     margin-bottom: 50px;
 }
 
+section.contact {
+    background-color: #f4f4f4;
+    padding: 20px;
+    top: 105px;
+}
+
+section.contact li {
+    width: 20%;
+    display: inline-block;
+    font-size: 24px;
+
+}
+section.contact ul li {
+    text-decoration: none;
+    margin: 30px;
+    display: inline-block;
+    padding: 20px 12px;
+    color: black;
+    border: 8px solid black;
+    border-radius: 36px;
+}
+
+section.contact ul li a {
+    color: black;
+}
+
+section.contact ul li:hover{
+    background-color: crimson;
+}
+
 footer {
     background-color: crimson;
     color: white;
