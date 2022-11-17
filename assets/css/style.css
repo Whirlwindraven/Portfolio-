@@ -23,6 +23,7 @@ header {
 
 .banner img {
     max-width: 100%;
+    white-space: nowrap;
 }
 
 header h1{
@@ -85,6 +86,7 @@ body  nav  ul  li:nth-child(3)  a {
 
 nav li a:hover{
 background-color: crimson;
+text-decoration: underline;
 }
 
 
@@ -102,12 +104,21 @@ main {
 
 article h2 {
     color: crimson;
-    font-size: 48px;
+    font-size: 45px;
+    padding: 10px 0px;
+    font-weight: 200px;
+    text-decoration: underline;
 }
+
 
 article p {
 line-height: 2em;
 color: black;
+}
+
+p::selection{
+    background-color: crimson;
+    color: white;
 }
 
 .images {
@@ -124,6 +135,11 @@ color: black;
 
 .images li img{ 
     max-width: 100%;
+}
+
+.images li:hover {
+position: relative;
+top: -4px;
 }
 
 .contact {
