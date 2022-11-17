@@ -1,7 +1,127 @@
-body { 
+body, ul, li, h1, h2, a { 
     margin: 0%;
     padding: 0%;
     max-width: 100%;
     overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+    background-color: crimson;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+header h1{
+    font-size: 40px;
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+}
+
+.banner h2 {
+    font-size: 70px;
+}
+
+.banner .welcome {
+    background-color: brown;
+    color: bisque;
+    padding: 30px;
+    position: absolute;
+    left: 0px;
+    top: 20%;
+}
+.banner h2 span {
+    font-size: 1.3em;
+}
+
+nav {
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: sticky;
+    top: 105px;
+}
+
+nav ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li {
+    width: 20%;
+    display: inline-block;
+    font-size: 24px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 12px;
+    color: black;
+    border: 8px solid black;
+    border-radius: 36px;
+}
+
+body  nav  ul  li:nth-child(3)  a {
+    margin: 0 30px;
+}
+
+nav li a:hover{
+background-color: crimson;
+}
+
+
+nav li a.active {
+    background-color: crimson;
+}
+
+main {
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+
+article h2 {
+    color: crimson;
+    font-size: 48px;
+}
+
+article p {
+line-height: 2em;
+color: black;
+}
+
+.images {
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+
+.images li {
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+
+.images li img{ 
+    max-width: 100%;
+}
