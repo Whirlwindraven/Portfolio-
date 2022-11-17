@@ -142,46 +142,27 @@ position: relative;
 top: -4px;
 }
 
-.images2 {
-    text-align: center;
-    margin: 150px 0px;
-    padding: 0 50px;
-    white-space: nowrap;
-}
-
-.images2 li {
-    display: inline-block;
-    width: 50%;
-    margin: 20px 5%;
-}
-
-.images2 li img{
-    max-width: 100%;
-}
-
-.images2 li:hover {
-    position: relative;
-    top: -4px;
-    }
-
-.images3{
+/* consolidated code */
+.images2, .images3{
     text-align: center;
     margin: 150px 0px;
     padding: 0 50px;
     white-space: nowrap;
 }   
 
-.images3 li{ 
+/* consolidated code */
+.images2 li, .images3 li{ 
     display: inline-block;
-    width: 50%;
+    width: 40%;
     margin: 20px 5%;
 }
-
-.images3 li img{
+/* consolidated code */
+.images2 li img, .images3 li img {
     max-width: 100%;
 }
 
-.images3 li:hover{
+/* consolidated code */
+.images2 li:hover, .images3 li:hover{
     position: relative;
     top: -4px;
 }
@@ -196,6 +177,7 @@ color: #4b4b4b;
 .contact h2 {
     font-size: 30px;
     margin-bottom: 50px;
+    font-weight: 20px;
 }
 
 section.contact {
@@ -242,4 +224,83 @@ footer h2 {
     border: 6px solid white;
     border-radius: 30px;
     padding: 6px 12px;
+}
+
+/* responsive styles */
+
+@media screen and (max-width:1400px){ 
+    .banner .welcome h2 {
+        font-size: 60px;
+    }
+    nav li{
+       font-size: 18px; 
+    }
+    section.contact li{
+        font-size:18px;
+    }
+}
+@media screen and (max-width:960px){ 
+    .banner .welcome h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:850px){ 
+    .banner .welcome {
+        position: relative;
+        text-align: center;
+        padding: 10px;
+    }
+    .banner .welcome br{
+        display: none;
+    }
+    .banner .welcome h2 {
+        font-size: 25px;
+    }
+    .banner .welcome span{
+        font-size: 1em;
+    }
+
+    .images li, .images2 li, .images3 li {
+        width: 100%;
+        margin: 20px auto;
+        display:block;
+    }
+    
+    section.contact li{
+        font-size: 15px;
+        display: block;
+        width:100%;
+        margin: 10px;
+        padding: 20px;
+    }
+    
+}
+
+@media screen and (max-width:560px){
+    nav li {
+        font-size: 20px;
+        display: block;
+        width:100%;
+        margin: 12px;
+    }
+
+    body  nav  ul  li:nth-child(3)  a {
+        margin: 0 0px;
+    }
+
+    section.contact li{
+        font-size: 15px;
+        border-radius: 20px;
+        display: flex;
+        width:100%;
+        justify-content: flex-start;
+    }
+    
+    header{
+        position:relative;
+    }
+    nav{
+        top:0;
+    }
 }
