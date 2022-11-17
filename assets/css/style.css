@@ -123,13 +123,13 @@ p::selection{
 
 .images {
     text-align: center;
-    margin: 80px 0;
+    margin: 100px 0;
     white-space: nowrap;
 }
 
 .images li {
     display: inline-block;
-    width: 40%;
+    width: 80%;
     margin: 20px 5%;
 }
 
@@ -140,6 +140,50 @@ p::selection{
 .images li:hover {
 position: relative;
 top: -4px;
+}
+
+.images2 {
+    text-align: center;
+    margin: 150px 0px;
+    padding: 0 50px;
+    white-space: nowrap;
+}
+
+.images2 li {
+    display: inline-block;
+    width: 50%;
+    margin: 20px 5%;
+}
+
+.images2 li img{
+    max-width: 100%;
+}
+
+.images2 li:hover {
+    position: relative;
+    top: -4px;
+    }
+
+.images3{
+    text-align: center;
+    margin: 150px 0px;
+    padding: 0 50px;
+    white-space: nowrap;
+}   
+
+.images3 li{ 
+    display: inline-block;
+    width: 50%;
+    margin: 20px 5%;
+}
+
+.images3 li img{
+    max-width: 100%;
+}
+
+.images3 li:hover{
+    position: relative;
+    top: -4px;
 }
 
 .contact {
