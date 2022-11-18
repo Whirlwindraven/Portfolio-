@@ -88,6 +88,9 @@ body  nav  ul  li:nth-child(3)  a {
 nav li a:hover{
 background-color: crimson;
 text-decoration: underline;
+color: white;
+position: relative;
+top: -1.5px;
 }
 
 
@@ -284,6 +287,13 @@ footer h2 {
         margin: 10px;
         padding: 20px;
     }
+
+    section.contact ul li{
+        font-size: 15px;
+        margin: 12px;
+        border-radius: 60px;
+        display: block
+    }
     
 }
 
@@ -299,12 +309,11 @@ footer h2 {
         margin: 0 0px;
     }
 
-    section.contact li{
+    section.contact ul li{
         font-size: 15px;
-        border-radius: 20px;
-        display: flex;
-        width:100%;
-        justify-content: flex-start;
+        margin: 12px;
+        border-radius: 60px;
+        display: block
     }
     
     header{
