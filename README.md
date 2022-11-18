@@ -10,7 +10,7 @@ To achieve these adequately I had to encorporate HTML5 elements along with the m
 To access the portfolio site please click [here](https://whirlwindraven.github.io/Portfolio-/)
 
 # Preview Screenshot 
-Sample of the site is found in the screenshot below [Screenshot-of-website](./assets/Images/Portfolio%20screenshot.jpg "website-screenshot")
+Sample of the site is found in the screenshot below [Screenshot-of-website] (./assets/Images/Portfolio%20screenshot.jpg "website-screenshot")
 
 # Authors
 edX bootcamps LLC
