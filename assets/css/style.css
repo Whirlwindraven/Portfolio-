@@ -205,10 +205,19 @@ section.contact ul li {
 
 section.contact ul li a {
     color: black;
+    position: relative;
+    top: -3px;
 }
+
 
 section.contact ul li:hover{
     background-color: crimson;
+}
+
+section.contact ul li a:hover {
+    position: relative;
+    top: -5px;
+    color: white;
 }
 
 footer {
